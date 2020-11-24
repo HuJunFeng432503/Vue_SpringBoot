@@ -1,0 +1,15 @@
+com\zelin\mapper\StudentMapper.class
+com\zelin\pojo\PageResult.class
+com\zelin\pojo\Student.class
+com\zelin\pojo\Result.class
+com\zelin\mapper\ClassessMapper.class
+com\zelin\controller\ClassesController.class
+com\zelin\service\impl\StudentServiceImpl.class
+com\zelin\test\TestMyBatisPlusMapper.class
+com\zelin\pojo\Classes.class
+com\zelin\controller\StudentController.class
+com\zelin\service\StudentService.class
+com\zelin\config\MybatisPlusConfig.class
+com\zelin\SpringbootApplication.class
+com\zelin\service\ClassesService.class
+com\zelin\service\impl\ClassesServiceImpl.class
