@@ -1,19 +1,15 @@
 package com.zelin.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.zelin.pojo.Classes;
 import com.zelin.pojo.PageResult;
 import com.zelin.pojo.Result;
 import com.zelin.pojo.Student;
 import com.zelin.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.awt.print.Pageable;
 import java.util.List;
 
 /**

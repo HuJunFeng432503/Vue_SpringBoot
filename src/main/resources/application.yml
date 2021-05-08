@@ -5,10 +5,12 @@ server:
 spring:
   datasource:
     username: root
-    url: jdbc:mysql:///java0702?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://localhost:12336/java0702?useUnicode=true&characterEncoding=utf8&useSSL=false
     type: com.alibaba.druid.pool.DruidDataSource
     password: HuJunFeng
     driver-class-name: com.mysql.jdbc.Driver
+
+
 
 mybatis-plus:
   type-aliases-package: com.zelin.pojo
